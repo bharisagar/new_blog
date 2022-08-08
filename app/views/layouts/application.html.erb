@@ -13,8 +13,11 @@
   </head>
 
   <body>
-    <main>
+    <header>
+      <%= render 'layouts/alerts' %>
       <%= render 'layouts/navbar' %>
+    </header>
+    <main>
       <%= yield %>
     </main>
   </body>
